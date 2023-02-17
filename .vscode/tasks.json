@@ -3,8 +3,8 @@
     {
       "type": "cppbuild",
       "label": "C/C++: gcc 生成活动文件",
-      "command": "/usr/bin/gcc",
-      "args": [
+      "command": "/usr/bin/gcc", // specifies the program to run
+      "args": [ // specifies the command-line arguments that will be passed to g++
         "-fdiagnostics-color=always",
         "-g",
         "${file}",
