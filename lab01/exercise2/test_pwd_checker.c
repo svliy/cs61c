@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include "pwd_checker.h"
 
-int main() {
+int main()
+{
     printf("Running tests...\n\n");
 
     const char *test1_first = "Abraham";
@@ -30,7 +31,7 @@ int main() {
     const char *test4_first = "Wei";
     const char *test4_last = "Zhang";
     const char *test4_pwd = "pjkdihn!o901";
-    bool test4 = check_password(test4_first, test4_last, test4_pwd);
+    bool test4 = check_password(test4_first, test4_last, test4_pwd); // error
     assert(!test4);
 
     const char *test5_first = "John";
